@@ -11,21 +11,21 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/signup',
-    name: 'signup',
+    path: '/signin',
+    name: 'signin',
     // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
+    // this generates a separate chunk (sigin.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/SignUp.vue')
+    component: () => import(/* webpackChunkName: "sigin" */ '../views/SigninView.vue')
   },
   {
     path: '/signup',
     name: 'signup',
     // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
+    // this generates a separate chunk (sigin.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/SignIn.vue')
-  },
+    component: () => import(/* webpackChunkName: "sigin" */ '../views/SignupView.vue')
+  }
 ]
 
 const router = new VueRouter({

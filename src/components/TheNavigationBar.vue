@@ -8,12 +8,10 @@
         alt=""
       />
     </a>
-    <div class="flex-grow flex items-center">
-      <router-link to="/signin" class="f4 link dib black dim mr3 mr4-ns">
-        Sign In
-      </router-link>
+    <nav class="flex-grow flex items-center">
+      <router-link to="/signin" class="f4 link dib black dim mr3 mr4-ns"> Sign In</router-link>
       <router-link to="/signup" class="f4 dib black bg-animate hover-bg-white hover-black no-underline pv2 ph4 br-pill ba b--white-50">Sign Up</router-link>
-    </div>
+    </nav>
   </div>
 </template>
 <script>

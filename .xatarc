@@ -1,0 +1,7 @@
+{
+  "databaseURL": "https://Olufunke-Moronfolu-s-workspace-vj48pf.xata.sh/db/hackmamba-hackathon",
+  "codegen": {
+    "output": "src/xata.js",
+    "moduleType": "esm"
+  }
+}
