@@ -53,7 +53,8 @@ export default {
         this.email = '';
         this.password = '';
       } else {
-        this.$notify({type: 'success', text: "Login successful!" })
+        this.$notify({type: 'success', text: "Login successful!"})
+        this.$router.push({path:`/dashboard/${user.username}`, params: user})
       }
     }
   }

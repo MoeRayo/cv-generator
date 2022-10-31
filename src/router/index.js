@@ -25,7 +25,13 @@ const routes = [
     // this generates a separate chunk (sigin.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "sigin" */ '../views/SignupView.vue')
-  }
+  },
+  {
+    path: "/dashboard/:id",
+    name: "dashboard",
+    component: () =>
+      import(/* webpackChunkName: "dashboard" */ "../views/DashboardPage.vue"),
+  },
 ]
 
 const router = new VueRouter({
