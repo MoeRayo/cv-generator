@@ -199,6 +199,10 @@
           <label for="education" class="db mb3 black-70 fw7 ttu">Education</label>
           <textarea v-model="data.education" name="education" id="education" class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"></textarea>
         </div>
+        <div class="w-50-l w-100">
+          <label for="about" class="db mb3 black-70 fw7 ttu">About Me</label>
+          <textarea v-model="data.about" name="about" id="about" class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"></textarea>
+        </div>
 
         <div class="dn" v-if="showTemplate">
           <TheResumeTemplate v-bind="data" ref="ref" />
@@ -208,6 +212,7 @@
           <button type="submit" class="f6 ttu tracked black-80 bg-black pa3 br3 white bb link b--black hover-black hover-bg-gold bg-animate pointer">Create Resume</button>
         </div>
     </form>
+   
    
   </div>
   <div class="bg-white w-30 br3 pa3">
@@ -246,10 +251,11 @@ export default {
       projectExperience: '',
       workExperience: '',
       education: '',
+      about:''
     },
     showTemplate: false,
     iframeSRC: '',
-    initialSRC: 'https://res.cloudinary.com/moerayo/image/upload/v1667335911/CV_proto.pdf'
+    initialSRC: 'https://res.cloudinary.com/moerayo/image/upload/v1667335911/cv_gen.pdf'
   }),
   methods: {
     createResume(){

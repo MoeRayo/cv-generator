@@ -8,9 +8,11 @@
 
       <cld-transformation :overlay="{fontFamily: 'Open Sans', fontSize: 18, text: email}" color="#58697B" gravity="west" x="550" y="-577"/>
 
-      <cld-transformation :overlay="{fontFamily: 'Open Sans', fontSize: 18, text: github}" color="#58697B" gravity="west" x="200" y="-545"/>
+      <cld-transformation :overlay="{fontFamily: 'Open Sans', fontSize: 35, text: github}" color="#58697B" gravity="west" x="180" y="-545"/>
 
       <cld-transformation :overlay="{fontFamily: 'Open Sans', fontSize: 18, text: linkedin}" color="#58697B" gravity="west" x="580" y="-547"/>
+
+      <cld-transformation :overlay="{fontFamily: 'Open Sans', fontSize: 25, text: about}" color="#58697B" gravity="west" x="110" y="-500"/>
 
       <cld-transformation :overlay="{fontFamily: 'Open Sans', fontSize: 20, text: languageOne}" color="#58697B" gravity="west" x="110" y="-350"/>
 
@@ -47,11 +49,11 @@
 
       <cld-transformation :overlay="{fontFamily: 'Open Sans', fontSize: 20, text: toolThree}" color="#58697B" gravity="west" x="965" y="-290"/> 
 
-      <cld-transformation :overlay="{fontFamily: 'Open Sans', fontSize: 40, text: projectExperience}" color="#FFB700" gravity="west" x="110" y="-160"/>
+      <cld-transformation :overlay="{fontFamily: 'Open Sans', fontSize: 35, text: projectExperience}" color="#58697B" gravity="west" x="110" y="-160"/>
 
-      <cld-transformation :overlay="{fontFamily: 'Open Sans', fontSize: 30, text: workExperience}" color="#58697B" gravity="west" x="110" y="250"/>
+      <cld-transformation :overlay="{fontFamily: 'Open Sans', fontSize: 35, text: workExperience}" color="#58697B" gravity="west" x="110" y="250"/>
 
-      <cld-transformation :overlay="{fontFamily: 'Open Sans', fontSize: 30, text: education}" color="#58697B" gravity="west" x="110" y="600"/> 
+      <cld-transformation :overlay="{fontFamily: 'Open Sans', fontSize: 40, text: education}" color="#58697B" gravity="west" x="110" y="600"/> 
 
 
     </cld-image>
@@ -68,6 +70,10 @@ export default {
       required: true 
     },
     lastname: { 
+      type: String, 
+      required: true
+    },
+    about: { 
       type: String, 
       required: true
     },
