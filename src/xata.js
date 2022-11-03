@@ -21,7 +21,7 @@ const DatabaseClient = buildClient();
 const defaultOptions = {
   databaseURL:
     "https://Olufunke-Moronfolu-s-workspace-vj48pf.xata.sh/db/hackmamba-hackathon",
-  apiKey: process.env.VUE_APP_XATA_API_KEY
+  apiKey: "xau_WAMw8evIhRbrATj5QNZqERFdUuQgdHQv6"
 
 };
 /** @typedef { import('./types').DatabaseSchema } DatabaseSchema */
