@@ -265,7 +265,6 @@ export default {
         this.showTemplate = true
         this.$nextTick(() => {
          this.iframeSRC = this.$refs.ref.$refs.ref.$el.src
-         console.log(this.$refs.ref.$refs.ref.$el.src)
         });
       }
     }

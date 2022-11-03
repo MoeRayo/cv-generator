@@ -64,8 +64,11 @@ export default {
           username: this.username,
           password: this.password,
           email: this.email
+        }).then((res) => {
+          this.$router.push({path:`/dashboard/${res.username}`, params: user})
         })
         this.$notify({type: 'success', text: "Account creation successful!" })
+
       }
     }
   }
