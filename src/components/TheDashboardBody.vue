@@ -6,7 +6,7 @@
         <label for="email" class="db mb3 black-70 ttu fw7">Firstname</label>
         <input
           id="firstname"
-          v-model="data.firstname"
+          v-model="userData.firstname"
           name="firstname"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -17,7 +17,7 @@
         <label for="lastname" class="db mb3 black-70 ttu fw7">Lastname</label>
         <input
           id="lastname"
-          v-model="data.lastname"
+          v-model="userData.lastname"
           name="lastname"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -28,7 +28,7 @@
         <label for="email" class="db mb3 black-70 ttu fw7">Email</label>
         <input
           id="email"
-          v-model="data.email"
+          v-model="userData.email"
           name="email"
           type="email"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -39,7 +39,7 @@
         <label for="phone-number" class="db mb3 black-70 ttu fw7">Phone Number</label>
         <input
           id="phone-number"
-          v-model="data.phoneNumber"
+          v-model="userData.phoneNumber"
           name="phone-number"
           type="number"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -50,7 +50,7 @@
         <label for="linkedin" class="db mb3 black-70 ttu fw7">Linkedin</label>
         <input
           id="linkedin"
-          v-model="data.linkedin"
+          v-model="userData.linkedin"
           name="linkedin"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -62,7 +62,7 @@
         <label for="github" class="db mb3 black-70 ttu fw7">GitHub</label>
         <input
           id="github"
-          v-model="data.github"
+          v-model="userData.github"
           name="github"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -75,7 +75,7 @@
         <label for="languages" class="db mb3 black-70 ttu fw7">Languages</label>
         <input
           id="languages-one"
-          v-model="data.languageOne"
+          v-model="userData.languageOne"
           name="languages-one"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -83,7 +83,7 @@
         >
         <input
           id="languages-two"
-          v-model="data.languageTwo"
+          v-model="userData.languageTwo"
           name="languages-two"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -91,7 +91,7 @@
         >
         <input
           id="languages-three"
-          v-model="data.languageThree"
+          v-model="userData.languageThree"
           name="languages-three"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -104,7 +104,7 @@
         <label for="frameworks" class="db mb3 black-70 ttu fw7">Frameworks</label>
         <input
           id="frameworks-one"
-          v-model="data.frameworkOne"
+          v-model="userData.frameworkOne"
           name="frameworks-one"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -112,7 +112,7 @@
         >
         <input
           id="frameworks-two"
-          v-model="data.frameworkTwo"
+          v-model="userData.frameworkTwo"
           name="frameworks-two"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -120,7 +120,7 @@
         >
         <input
           id="frameworks-three"
-          v-model="data.frameworkThree"
+          v-model="userData.frameworkThree"
           name="frameworks-three"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -133,7 +133,7 @@
         <label for="database" class="db mb3 black-70 ttu fw7">Databases</label>
         <input
           id="database-one"
-          v-model="data.databaseOne"
+          v-model="userData.databaseOne"
           name="database-one"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -141,7 +141,7 @@
         >
         <input
           id="database-two"
-          v-model="data.databaseTwo"
+          v-model="userData.databaseTwo"
           name="database-two"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -149,7 +149,7 @@
         >
         <input
           id="database-three"
-          v-model="data.databaseThree"
+          v-model="userData.databaseThree"
           name="database-three"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -162,7 +162,7 @@
         <label for="tool" class="db mb3 black-70 ttu fw7">Tools</label>
         <input
           id="tool-one"
-          v-model="data.toolOne"
+          v-model="userData.toolOne"
           name="tool-one"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -170,7 +170,7 @@
         >
         <input
           id="tool-two"
-          v-model="data.toolTwo"
+          v-model="userData.toolTwo"
           name="tool-two"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -178,7 +178,7 @@
         >
         <input
           id="tool-three"
-          v-model="data.toolThree"
+          v-model="userData.toolThree"
           name="tool-three"
           type="text"
           class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"
@@ -189,23 +189,23 @@
 
         <div class="w-50-l w-100">
           <label for="project-experience" class="db mb3 black-70 fw7 ttu">project experience</label>
-          <textarea v-model="data.projectExperience" name="project-experience" id="project-experience" class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"></textarea>
+          <textarea v-model="userData.projectExperience" name="project-experience" id="project-experience" class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"></textarea>
         </div>
         <div class="w-50-l w-100">
           <label for="work-experience" class="db mb3 black-70 fw7 ttu">work experience</label>
-          <textarea v-model="data.workExperience" name="work-experience" id="work-experience" class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"></textarea>
+          <textarea v-model="userData.workExperience" name="work-experience" id="work-experience" class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"></textarea>
         </div>
         <div class="w-50-l w-100">
           <label for="education" class="db mb3 black-70 fw7 ttu">Education</label>
-          <textarea v-model="data.education" name="education" id="education" class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"></textarea>
+          <textarea v-model="userData.education" name="education" id="education" class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"></textarea>
         </div>
         <div class="w-50-l w-100">
           <label for="about" class="db mb3 black-70 fw7 ttu">About Me</label>
-          <textarea v-model="data.about" name="about" id="about" class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"></textarea>
+          <textarea v-model="userData.about" name="about" id="about" class="db mb3 w-90 br2 pa2 ba bw1 b--black bg-black-05"></textarea>
         </div>
 
         <div class="dn" v-if="showTemplate">
-          <TheResumeTemplate v-bind="data" ref="ref" />
+          <TheResumeTemplate :userData="userData" ref="ref" />
         </div>
       
         <div class="w-100">
@@ -229,7 +229,7 @@ export default {
     TheResumeTemplate,
   },
   data: () => ({
-    data: {
+    userData: {
       firstname: '',
       lastname: '',
       linkedin: '',
@@ -259,7 +259,7 @@ export default {
   }),
   methods: {
     createResume(){
-      if(!this.data.firstname){
+      if(!this.userData.firstname){
         this.showTemplate = false
       } else {
         this.showTemplate = true
